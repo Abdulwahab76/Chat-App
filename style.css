@@ -1,0 +1,103 @@
+body{
+    /* background-image: linear-gradient(rgb(255,255,255), rgb(10,39,239)); */
+    background-image: url('https://cutewallpaper.org/21/whatsapp-background-wallpaper/Whatsapp-Background-Polandballart.png');
+  
+}
+*{
+    
+    padding: 0;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 50px;
+   
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+    font-weight: 800;
+}
+span{
+    color: green;
+    font-weight: 700;
+
+}
+.container{
+    max-width: 800px;
+
+    margin: auto;
+    height: 60vh;
+    border: 2px solid black;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    border-radius: 13px;
+   
+}
+.message{
+
+    width: auto;
+    border: 2px solid #dedede;
+    background-color: #0084ff;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    text-align: center;
+    max-width: 985px;
+    display: block;
+    margin: auto;
+    width: 100%;
+
+}
+#messageInp{
+    width: 69%;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 32px;
+    padding: 5px;
+
+}
+#messageInp:focus{
+    outline: none;
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid grey;
+
+   color: black;
+}
+.btn:hover{
+    background-color:#ffffff ;
+    color: black;
+}
+
+@media only screen and (max-width: 375px) {
+    #messageInp{
+        width: 69%;
+    }
+    .btn{
+        width: 70px;
+    }
+  }
